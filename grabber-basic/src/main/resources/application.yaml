@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: grabber-basic
+  ai:
+    ollama:
+      chat:
+        model: llama3.2:1b
+        options:
+          temperature: 0.9
+server:
+  port: 7070
