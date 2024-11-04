@@ -1,0 +1,16 @@
+.btn {
+  &.btn-primary {
+  }
+  &.iconbtn {
+    background: none;
+    border: none;
+  }
+  &.attachment-button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 0.25rem;
+  }
+}
