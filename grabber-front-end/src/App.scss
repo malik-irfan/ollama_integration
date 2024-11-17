@@ -1,8 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./utills/variable.scss";
 .chat-container {
   display: flex;
   height: 100vh;
-  background-color: #ffffff;
+  background-color: $white-color;
 }
 
 .chat-link {
@@ -15,7 +16,7 @@
 }
 
 .chat-link:hover {
-  background-color: #f3f4f6;
+  background-color: $secondary-color-light;
 }
 
 .main-content {

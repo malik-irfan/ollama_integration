@@ -4,8 +4,15 @@ spring:
   ai:
     ollama:
       chat:
-        model: llama3.2:1b
+        model: llama3
         options:
           temperature: 0.9
+      init:
+        pull-model-strategy: always
+        timeout: 15m
+        max-retries: 2
+
+
+
 server:
   port: 7070

@@ -1,8 +1,9 @@
+@import "../../utills/variable.scss";
 .chat-area {
   flex: 1;
   overflow-y: auto;
   padding: 1rem;
-  background-color: #f9fafb;
+  background-color: $secondary-color-light;
   .chat-messages {
     max-width: 60rem;
     margin: 0 auto;

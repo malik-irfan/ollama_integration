@@ -1,3 +1,4 @@
+@import "../../../utills/variable.scss";
 .message {
   display: flex;
   gap: 1rem;
@@ -5,7 +6,7 @@
   &.user-message {
     align-self: flex-start;
     .avatar {
-      background-color: #3b82f6;
+      background-color: $primary-color-dark;
       color: white;
     }
     .message-content {
@@ -18,12 +19,12 @@
     flex-direction: row-reverse;
 
     .avatar {
-      background-color: #10b981;
+      background-color: $tertiary-color-light;
       color: white;
     }
     .message-content {
       border-top-right-radius: 0;
-      background-color: #e8f5ff;
+      background-color: $primary-color-light;
     }
   }
 
@@ -31,7 +32,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: #e5e7eb;
+    background-color: $info-color;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,11 +49,11 @@
       font-weight: 500;
       margin-bottom: 0.25rem;
       font-size: 0.875rem;
-      color: #6b7280;
+      color: $secondary-color;
     }
 
     .message-text {
-      color: #374151;
+      color: $secondary-color;
     }
   }
 }

@@ -1,0 +1,15 @@
+.chat-initial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  .chat-initial-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .input-area {
+    border-top: none;
+  }
+}

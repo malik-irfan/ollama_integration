@@ -1,16 +1,17 @@
 import { Share, MessageSquare } from "lucide-react";
 import "./style.scss";
+import { CommonButton } from "../common/CommonButton";
 
 const Header = () => {
   return (
     <header className="main-header">
       <div className="header-title">
         <MessageSquare size={20} />
-        <span>Veloria</span>
+        <span>Grabber</span>
       </div>
-      <button className="sidebar-button" style={{ width: "auto" }}>
+      <CommonButton className="iconbtn" variant="outlined">
         <Share size={16} />
-      </button>
+      </CommonButton>
     </header>
   );
 };
