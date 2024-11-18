@@ -3,6 +3,8 @@ spring:
     name: grabber-basic
   ai:
     ollama:
+      embedding:
+        enabled: false
       chat:
         model: llama3
         options:
